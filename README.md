@@ -32,22 +32,12 @@ Projeto de automação de testes end-to-end utilizando **Cypress**, com foco em 
 
 ---
 
-## 🧠 Boas práticas aplicadas
-
-* Uso de seletores estáveis (`data-testid`)
-* Separação de cenários positivos e negativos
-* Validação de mensagens de erro
-* Dados dinâmicos para evitar conflitos
-* Estrutura organizada de testes
-
----
-
 ##  Como executar o projeto
 
 ### 1. Clonar o repositório
 
-```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+```bash[
+https://github.com/victorlessamachado/cypress_teste-front_ServeRest.git
 ```
 
 ### 2. Instalar dependências
