@@ -17,7 +17,7 @@ describe('Realizar login com e-mail inválido', () => {
     cy.contains('Email e/ou senha inválidos').should('be.visible')
 
 })
-it('Login com os campos e-m,ail e senha vazios ', () => {
+it('Login com os campos e-mail e senha vazios ', () => {
     cy.visit('/login')
     
     cy.get('[data-testid="entrar"]').click()

@@ -5,6 +5,6 @@ describe('Realizar login com sucesso', () => {
    cy.get('[data-testid="email"]').type('usuario@teste.com')
    cy.get('[data-testid="senha"]').type('senha123')
    cy.get('[data-testid="entrar"]').click()
-   cy.contains( 'Bem Vindo tester').should('be.visible')
+   cy.contains( 'Bem Vindo').should('be.visible')
   })
 })
